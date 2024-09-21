@@ -4,18 +4,20 @@ public class ApplianceApp {
 
 
         AttendanceSystem attendanceSystem = new AttendanceSystem();
-        SchoolManagementApp attendanceSystemSMA = new AttendanceAdaptee(attendanceSystem);
+        SchoolManagementApp attendanceSystemSchoolApp = new AttendanceAdaptee(attendanceSystem);
+        
 
         GradingSys gradingSystem = new GradingSys();
-        SchoolManagementApp gradingSystemSMA = new GradingAdaptee(gradingSystem);
+        SchoolManagementApp gradingSystemSchoolApp = new GradingAdaptee(gradingSystem);
+
 
         LibrarySys librarySystem = new LibrarySys();
-        SchoolManagementApp librarySystemSMA = new LibraryAdaptee(librarySystem);
+        SchoolManagementApp librarySystemSchoolApp = new LibraryAdaptee(librarySystem);
 
             
-            System.out.println(attendanceSystemSMA.integrate());
-            System.out.println(gradingSystemSMA.integrate());
-            System.out.println(librarySystemSMA.integrate());
+            System.out.println(attendanceSystemSchoolApp.integrate());
+            System.out.println(gradingSystemSchoolApp.integrate());
+            System.out.println(librarySystemSchoolApp.integrate());
  
     }
 }
