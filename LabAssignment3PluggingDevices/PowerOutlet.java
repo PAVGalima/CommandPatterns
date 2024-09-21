@@ -1,5 +1,7 @@
 package LabAssignment3PluggingDevices;
 
-public class PowerOutlet {
+public interface PowerOutlet {
+        public String plugIn();
+    }
     
-}
+
