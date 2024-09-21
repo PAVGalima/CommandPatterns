@@ -16,6 +16,7 @@ public class Appliance {
         SmartphoneCharger smartphoneCharger = new SmartphoneCharger();
         PowerOutlet smartphoneC = new SmartphoneAdapter(smartphoneCharger);
 
+
         //APPLIANCE IS CHARGING
         System.out.println(laptopPowerOutlet.plugIn());
         System.out.println();
