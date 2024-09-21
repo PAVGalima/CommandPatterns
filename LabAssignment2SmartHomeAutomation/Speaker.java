@@ -1,5 +1,5 @@
 public class Speaker {
-    
+
     public String speakerOn(){
         return "Bluetooth speaker is on!";
     }
