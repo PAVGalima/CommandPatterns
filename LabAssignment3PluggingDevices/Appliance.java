@@ -1,6 +1,7 @@
 package LabAssignment3PluggingDevices;
 /*
  * GALIMA PATRICK ACE V.
+ * LAB ASSIGNMENT 3
  */;
 
 public class Appliance {
@@ -17,7 +18,8 @@ public class Appliance {
         PowerOutlet smartphoneC = new SmartphoneAdapter(smartphoneCharger);
 
 
-        //APPLIANCE IS CHARGING
+        //ALL APPLIANCE IS CHARGING
+        System.out.println();
         System.out.println(laptopPowerOutlet.plugIn());
         System.out.println();
         System.out.println(refrigPowerOutlet.plugIn());
