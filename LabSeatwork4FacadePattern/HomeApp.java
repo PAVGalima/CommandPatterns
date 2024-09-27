@@ -15,8 +15,6 @@ public class HomeApp {
         HomeService airConService = new ConcreteAircon();
         HomeInterface airConFacade = new HomeInterface(airConService);
 
-
-
         System.out.println();
         //TURN ON ALL APPLIANCE;
         tvFacade.turnOnAll();
