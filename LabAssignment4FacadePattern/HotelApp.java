@@ -6,6 +6,7 @@ package LabAssignment4FacadePattern;
  */
 public class HotelApp {
     public static void main(String[] args) {
+        
         FrontDesk frontDesk = new FrontDesk();
         // Simulate hotel services
         System.out.println();
