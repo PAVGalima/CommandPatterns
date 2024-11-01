@@ -1,3 +1,5 @@
+
+
 import java.util.Scanner;
 /*
  * Galima Patrick Ace V.
@@ -32,6 +34,7 @@ public class Appliance {
         while(running){
             System.out.println("PRESS 1:[+]");
         System.out.println("PRESS 2:[-]");
+        System.out.println("PRESS 3:[Exit]");
         Integer choice = scanner.nextInt();
                
         switch(choice){
